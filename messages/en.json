@@ -1,0 +1,7 @@
+{
+  "HomePage": {
+		"title": "Internationalization for Next.js",
+    "subtitle": "Hello world!",
+    "about": "Go to the page → About"
+  }
+}
