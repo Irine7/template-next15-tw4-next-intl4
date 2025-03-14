@@ -18,10 +18,10 @@ export default async function LocaleLayout({
 	}
 
 	return (
-		<html lang={locale}>
+		<html lang={locale} suppressHydrationWarning={true}>
 			<body>
-				<NextIntlClientProvider>
-					<ThemeProvider attribute="class" defaultTheme="system" enableSystem>
+				<NextIntlClientProvider locale={locale}>
+					<ThemeProvider attribute="class" defaultTheme=" " enableSystem>
 						<div className="flex flex-col min-h-screen">
 							<LayoutHeader />
 							<main className="flex-grow container mx-auto p-4 flex items-center justify-center">

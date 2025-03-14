@@ -1,22 +1,23 @@
 {
   "type": "module",
   "packageManager": "pnpm@10.6.0",
-	"private": true,
-	"author": "Irine7 <isemichasova@gmail.com>",
-	"name": "template-next15-tw4-next-intl4",
-	"license": "MIT",
+  "private": true,
+  "author": "Irine7 <isemichasova@gmail.com>",
+  "name": "template-next15-tw4-next-intl4",
+  "license": "MIT",
   "scripts": {
-    "d": "next dev --turbopack",
-    "b": "next build",
+    "dev": "next dev --turbopack",
+    "build": "next build",
     "start": "next start",
-    "p": "pnpx http-server out -a 127.0.0.1 -p 3000"
+    "preview": "pnpx http-server out -a 127.0.0.1 -p 3000"
   },
-	"dependencies": {
+  "dependencies": {
     "@radix-ui/react-slot": "^1.1.2",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
     "lucide-react": "^0.475.0",
     "next": "^15.2.1",
+    "next-intl": "^4.0.2",
     "next-themes": "^0.4.5",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
@@ -30,5 +31,10 @@
     "@types/react-dom": "^19.0.4",
     "tailwindcss": "^4.0.12",
     "typescript": "^5.8.2"
+  },
+  "pnpm": {
+    "ignoredBuiltDependencies": [
+      "sharp"
+    ]
   }
 }
