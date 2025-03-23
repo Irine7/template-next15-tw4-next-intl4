@@ -1,0 +1,8 @@
+{
+  "HomePage": {
+		"title": "Magic Potion Brewer",
+    "subtitle": "Hello world!",
+    "about": "Go to the page → About",
+		"caldron": "My Caldron"
+  }
+}
