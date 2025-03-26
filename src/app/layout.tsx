@@ -2,8 +2,8 @@ import type { Metadata } from 'next';
 import './globals.css';
 
 export const metadata: Metadata = {
-  title: 'Magic Potion Brewer',
-  description: 'A simple app to brew magic potions',
+  title: 'Next15 + Auth + Next Intl + Tailwind CSS Template',
+  description: 'A cutting edge template for Next15 + Auth + Next Intl + Tailwind CSS',
 };
 
 export default function RootLayout({
