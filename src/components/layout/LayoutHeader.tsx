@@ -6,6 +6,8 @@ import { useTranslations } from 'next-intl';
 
 import ThemeSwitcher from '../switchers/theme-switcher';
 import LanguageSwitcher from '../switchers/language-switcher';
+import LoginButton from '../auth/login-button';
+import { Button } from '../ui/button';
 
 function LayoutHeader() {
 	const t = useTranslations('HomePage');
@@ -22,6 +24,14 @@ function LayoutHeader() {
 					<LanguageSwitcher />
 					<h3>{t('cart')}</h3>
 					<ThemeSwitcher />
+					<LoginButton>
+            <Button
+              className="bg-gradient-to-r from-sky-400 to-sky-500 text-primary hover:bg-gradient-to-l hover:from-sky-400 hover:to-sky-500"
+              size="lg"
+            >
+              Sign in
+            </Button>
+          </LoginButton>
 				</div>
 			</div>
 		</header>
