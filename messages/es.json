@@ -1,8 +1,10 @@
 {
   "HomePage": {
-		"title": "Maestro de pociones",
+		"title": "Algún título",
     "subtitle": "Hola, mundo!",
     "about": "Ir a la página → About",
-		"caldron": "Mi Caldero"
+		"about_page": "Página About",
+		"go_to_home_page": "← Ir a la página Home",
+		"cart": "Cesta"
   }
 }

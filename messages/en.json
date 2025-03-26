@@ -1,8 +1,10 @@
 {
   "HomePage": {
-		"title": "Magic Potion Brewer",
+		"title": "Some title",
     "subtitle": "Hello world!",
     "about": "Go to the page → About",
-		"caldron": "My Caldron"
+		"about_page": "About page",
+		"go_to_home_page": "← Go to the page Home",
+		"cart": "Cart"
   }
 }
