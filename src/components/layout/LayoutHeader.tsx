@@ -4,8 +4,8 @@ import React from 'react';
 import Link from 'next/link';
 import { useTranslations } from 'next-intl';
 
-import ThemeSwitcher from './ThemeSwitcher';
-import LanguageSwitcher from './language-switcher';
+import ThemeSwitcher from '../switchers/theme-switcher';
+import LanguageSwitcher from '../switchers/language-switcher';
 
 function LayoutHeader() {
 	const t = useTranslations('HomePage');

@@ -29,7 +29,10 @@ export default function LanguageSwitcher() {
 		if (lang === currentLocale) return; // Если язык уже выбран — ничего не делаем
 
 		// Формируем новый маршрут, используя только новый язык и остальные сегменты пути (без текущего языка)
-		const newPath = `/${lang}${pathSegments.length > 0 ? '/' + pathSegments.join('/') : ''}`;
+		const newPath = `/${lang}${
+			// biome-ignore lint/style/useTemplate: <explanation>
+			pathSegments.length > 0 ? '/' + pathSegments.join('/') : ''
+		}`;
 
 		// Обновляем URL без перезагрузки страницы
 		router.replace(newPath);
