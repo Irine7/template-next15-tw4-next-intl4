@@ -8,8 +8,10 @@ import { Card, CardContent, CardHeader } from "@/components/ui/card";
 import RoleGate from "@/components/auth/role-gate";
 import FormSuccess from "@/components/form-success";
 import { admin } from "@/actions/admin";
+import { useTranslations } from "next-intl";
 
 export default function AdminPage() {
+  const t = useTranslations('AdminPage');
   const handleApiRoute = async () => {
     try {
       const response = await fetch("/api/admin");
@@ -43,7 +45,7 @@ export default function AdminPage() {
   return (
     <Card className="w-auto shadow-sm">
       <CardHeader className="flex-row items-center justify-center gap-x-4">
-        <p className="text-4xl font-semibold text-center">Admin Page</p>
+        <p className="text-2xl font-semibold text-center">{t('title')}</p>
       </CardHeader>
       <CardContent className="space-y-4">
         <RoleGate allowedRole={UserRole.ADMIN}>

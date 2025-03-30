@@ -7,6 +7,15 @@
 		"go_to_home_page": "← Go to the page Home",
 		"cart": "Cart"
   },
+	"ServerPage": {
+		"title": "Server Page Example"
+	},
+	"ClientPage": {
+		"title": "Client Page Example"
+	},
+	"AdminPage": {
+		"title": "Admin Page Example"
+	},
 	"SettingsPage": {
 		"title": "Settings Page Example"
 	}

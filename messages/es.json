@@ -9,5 +9,14 @@
   },
 	"SettingsPage": {
 		"title": "Ejemplo de página de configuración"
+	},
+	"AdminPage": {
+		"title": "Página del Admin"
+	},
+	"ServerPage": {
+		"title": "Ejemplo de página del servidor"
+	},
+	"ClientPage": {
+		"title": "Ejemplo de página del cliente"
 	}
 }
