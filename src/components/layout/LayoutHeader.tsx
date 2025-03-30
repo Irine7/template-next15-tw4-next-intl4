@@ -8,6 +8,7 @@ import ThemeSwitcher from '../switchers/theme-switcher';
 import LanguageSwitcher from '../switchers/language-switcher';
 import LoginButton from '../auth/login-button';
 import { Button } from '../ui/button';
+import UserButton from '../auth/user-button';
 
 function LayoutHeader() {
 	const t = useTranslations('HomePage');
@@ -32,6 +33,7 @@ function LayoutHeader() {
               Sign in
             </Button>
           </LoginButton>
+					<UserButton />
 				</div>
 			</div>
 		</header>

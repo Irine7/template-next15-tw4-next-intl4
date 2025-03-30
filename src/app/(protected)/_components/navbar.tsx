@@ -13,7 +13,7 @@ const Navbar = () => {
 
 	return (
 		<>
-			<nav className="hidden lg:flex  w-full fixed top-0 h-14 bg-secondary justify-between items-center p-4 shadow-md">
+			<nav className="hidden lg:flex  w-full fixed top-0 h-14 justify-between items-center p-4 shadow-md">
 				<div className="flex gap-x-2">
 					{NAV_LINKS.map((link, index) => (
 						<Button
@@ -26,7 +26,7 @@ const Navbar = () => {
 						</Button>
 					))}
 				</div>
-				<UserButton />
+				{/* <UserButton /> */}
 			</nav>
 
 			<nav className="flex bg-secondary items-center justify-between p-4 lg:hidden shadow-md">
