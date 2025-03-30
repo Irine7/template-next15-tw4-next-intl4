@@ -36,8 +36,10 @@ import { UserRole } from '@prisma/client';
 import { Switch } from '@/components/ui/switch';
 import FormError from '@/components/form-error';
 import FormSuccess from '@/components/form-success';
+import { useTranslations } from 'next-intl';
 
 export default function SettingsPage() {
+	const t = useTranslations('SettingsPage');
 	const user = useCurrentUser();
 
 	const { update } = useSession();
@@ -91,7 +93,7 @@ export default function SettingsPage() {
 			<CardHeader className="flex-row items-center justify-center font-semibold gap-x-3">
 				<RiUserSettingsLine className="text-sky-400 text-3xl" />
 
-				<p className="text-2xl">Settings Page Example</p>
+				<p className="text-2xl">{t('title')}</p>
 			</CardHeader>
 			<CardContent>
 				<Form {...form}>

@@ -6,5 +6,8 @@
 		"about_page": "Страниця About",
 		"go_to_home_page": "← Перейти на сторінку Home",
 		"cart": "Корзина"
+	},
+	"SettingsPage": {
+		"title": "Пример страницы настроек"
 	}
 }

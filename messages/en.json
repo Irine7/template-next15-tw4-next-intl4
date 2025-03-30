@@ -6,5 +6,8 @@
 		"about_page": "About page",
 		"go_to_home_page": "← Go to the page Home",
 		"cart": "Cart"
-  }
+  },
+	"SettingsPage": {
+		"title": "Settings Page Example"
+	}
 }

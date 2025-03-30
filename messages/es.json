@@ -6,5 +6,8 @@
 		"about_page": "Página About",
 		"go_to_home_page": "← Ir a la página Home",
 		"cart": "Cesta"
-  }
+  },
+	"SettingsPage": {
+		"title": "Ejemplo de página de configuración"
+	}
 }

@@ -10,7 +10,6 @@ import { RiUserSettingsLine } from 'react-icons/ri';
 import { useCurrentUser } from '@/hooks/use-current-user';
 import { useIsClient } from '@/hooks/use-is-client';
 import Spinner from '@/components/spinner';
-import { SettingsSchema } from '@/public/schemas';
 import { settings } from '@/actions/settings';
 import { Card, CardHeader, CardContent } from '@/components/ui/card';
 import {
@@ -36,6 +35,7 @@ import { UserRole } from '@prisma/client';
 import { Switch } from '@/components/ui/switch';
 import FormError from '@/components/form-error';
 import FormSuccess from '@/components/form-success';
+import { SettingsSchema } from '../../../../public/schemas';
 
 export default function SettingsPage() {
 	const user = useCurrentUser();
