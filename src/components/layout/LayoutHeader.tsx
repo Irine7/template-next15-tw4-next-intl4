@@ -26,7 +26,7 @@ function LayoutHeader() {
 					<ThemeSwitcher />
 					<LoginButton>
             <Button
-              className="bg-gradient-to-r from-sky-400 to-sky-500 text-primary hover:bg-gradient-to-l hover:from-sky-400 hover:to-sky-500"
+              className="bg-gradient-to-r from-green-300 to-green-500 text-primary hover:bg-gradient-to-l hover:from-green-400 hover:to-green-500"
               size="lg"
             >
               Sign in

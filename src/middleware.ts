@@ -9,9 +9,6 @@ export const config = {
 		// - … if they start with `/api`, `/trpc`, `/_next` or `/_vercel`
 		// - … the ones containing a dot (e.g. `favicon.ico`)
 		'/((?!api|trpc|_next|_vercel|.*\\..*).*)',
-
-		// Match all pathnames within `{/:locale}/users`
-		'/([\\w-]+)?/users/(.+)',
 	],
 };
 
@@ -23,7 +20,7 @@ export const config = {
 //   apiAuthPrefix,
 //   authRoutes,
 //   publicRoutes,
-// } from "@/routes";
+// } from "../routes";
 // import { routing } from "./i18n/routing";
 // import authConfig from '../auth.config';
 
@@ -73,7 +70,8 @@ export const config = {
 //     "/",
 //     "/(api|trpc)(.*)",
 
-//     // Пути для интернационализации
-//     "/([\\w-]+)?/users/(.+)",
+//     // Пути для интернационализации - поддержка всех локализованных маршрутов
+//     "/(en|ru|uk|es)/(.*)",
 //   ],
 // };
+
