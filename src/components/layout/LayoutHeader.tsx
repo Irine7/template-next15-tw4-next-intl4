@@ -6,9 +6,7 @@ import { useTranslations } from 'next-intl';
 
 import ThemeSwitcher from '../switchers/theme-switcher';
 import LanguageSwitcher from '../switchers/language-switcher';
-import LoginButton from '../auth/login-button';
 import { Button } from '../ui/button';
-import UserButton from '../auth/user-button';
 
 function LayoutHeader() {
 	const t = useTranslations('HomePage');
@@ -23,17 +21,10 @@ function LayoutHeader() {
 				</Link>
 				<div className="flex gap-2 items-center">
 					<LanguageSwitcher />
-					<h3>{t('cart')}</h3>
+					{/* <h3>{t('cart')}</h3> */}
 					<ThemeSwitcher />
-					<LoginButton>
-            <Button
-              className="bg-gradient-to-r from-green-300 to-green-500 text-primary hover:bg-gradient-to-l hover:from-green-400 hover:to-green-500"
-              size="lg"
-            >
-              Sign in
-            </Button>
-          </LoginButton>
-					<UserButton />
+					{/* <AuthMenu /> */}
+					{/* <UserButton /> */}
 				</div>
 			</div>
 		</header>
