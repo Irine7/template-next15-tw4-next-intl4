@@ -74,4 +74,3 @@ export const config = {
 //     "/(en|ru|uk|es)/(.*)",
 //   ],
 // };
-
